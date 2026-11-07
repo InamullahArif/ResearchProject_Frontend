@@ -30,6 +30,9 @@ export function Navbar() {
           <NavLink to="/single-predict" className={linkClass}>
             Single Predict
           </NavLink>
+          <NavLink to="/research" className={linkClass}>
+            Research Results
+          </NavLink>
         </nav>
       </div>
     </header>

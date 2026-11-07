@@ -65,3 +65,9 @@ export async function predictSingle(payload, opts = {}) {
   })
   return data
 }
+
+/** GET /research/summary — aggregated experiment results for the Research Results page. */
+export async function fetchResearchSummary() {
+  const { data } = await apiClient.get('/research/summary')
+  return data
+}
